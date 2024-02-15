@@ -10,6 +10,12 @@ from rdkit import RDConfig
 import os, sys
 import xlsxwriter
 
+## Headers
+####################################################################
+#  Prepare the final hit list from SD files for virtual screening  #
+#  Computational Biophysics & Drug Design (Kireev lab)             #
+#  Developed by Xiaowen Wang                                       #
+####################################################################
 
 inputfile = sys.argv[1]
 outputfile = sys.argv[2]
